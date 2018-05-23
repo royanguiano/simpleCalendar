@@ -1,0 +1,50 @@
+body {
+    width: 100%;
+    background-color: lightgray;
+    font-family: 'Kanit', sans-serif;
+}
+#evtcal {
+    width: 584px;
+    border: 1px;
+}
+#days{
+    padding: 3px;
+    text-align: -webkit-center;
+    background-color: white;
+    vertical-align: top;
+    width: 314px;
+    align-items: center;
+}
+
+
+#evtcal a:link {
+    font: normal 12pt "Arial", "Helvetica", "Sans Serif";
+    color: #004400;
+    text-decoration: none;
+}
+
+/* not visited link */
+
+#evtcal a:visited {
+    font: normal 12pt "Arial", "Helvetica", "Sans Serif";
+    color: #004400;
+    text-decoration: none;
+}
+
+/* visited link */
+
+#evtcal a:hover {
+    font: normal 12pt "Arial", "Helvetica", "Sans Serif";
+    color: #004400;
+    text-decoration: underline;
+}
+
+/* when mouse hovers link */
+
+#evtcal a:active {
+    font: normal 12pt "Arial", "Helvetica", "Sans Serif";
+    color: #004400;
+    text-decoration: none;
+}
+
+/* selected link */
